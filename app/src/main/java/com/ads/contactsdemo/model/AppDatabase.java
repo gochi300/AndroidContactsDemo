@@ -48,9 +48,10 @@ public abstract class AppDatabase extends RoomDatabase {
         @Override
         protected Void doInBackground(Void... voids) {
             /*CATEGORIES*/
-            contactDao.insert(new Contact(1,"John Doe","+260977123456","jd@gmail.com"));
-            contactDao.insert(new Contact(2,"Luke Skywalker","+260977654321","lskywalker@gmail.com"));
-            contactDao.insert(new Contact(2,"Scotty Kilmer","+260977654321","lskywalker@gmail.com"));
+            contactDao.insert(new Contact(1,"Darth Vader","+260977123456","jd@gmail.com"));
+            contactDao.insert(new Contact(2,"Han Solo","+260977123456","jd@gmail.com"));
+            contactDao.insert(new Contact(3,"Luke Skywalker","+260977654321","lskywalker@gmail.com"));
+            contactDao.insert(new Contact(4,"Obi-Wan Kenobi","+260977654321","lskywalker@gmail.com"));
 
             return null;
         }

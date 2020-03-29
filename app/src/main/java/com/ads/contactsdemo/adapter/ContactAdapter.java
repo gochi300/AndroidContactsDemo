@@ -18,6 +18,7 @@ import com.ads.contactsdemo.R;
 import com.ads.contactsdemo.ViewContactActivity;
 import com.ads.contactsdemo.model.Contact;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
@@ -68,11 +69,19 @@ public class ContactAdapter extends RecyclerView.Adapter<ContactAdapter.ViewHold
         return mContacts.size();
     }
 
-
+    // roodDB
     public void setmContacts(List<Contact> mContacts) {
         this.mContacts = mContacts;
         notifyDataSetChanged();
     }
+
+    // search
+    public void updateList(List<Contact> newList){
+        mContacts = new ArrayList<>();
+        mContacts.addAll(newList);
+        notifyDataSetChanged();
+    }
+
 
 
     // Provide a reference to the views for each data item

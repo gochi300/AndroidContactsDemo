@@ -1,3 +1,25 @@
 
 h
 8app/src/main/java/com/ads/contactsdemo/MainActivity.java,a\9\a99bd59ca8723c2b16548e3127b2e3b9ad465d48
+i
+9app/src/main/java/com/ads/contactsdemo/model/Contact.java,7\3\737d1cbbd3e4c1da73206884ff3b640f25fda712
+l
+<app/src/main/java/com/ads/contactsdemo/model/ContactDao.java,7\4\7487ee5f2c12712cbe3e8ed3cb7dbea2837010f6
+P
+ app/src/main/AndroidManifest.xml,8\c\8c55c3ccc257e5907959013f99656e4c8ec3903e
+r
+Bapp/src/main/java/com/ads/contactsdemo/adapter/ContactAdapter.java,e\3\e3e435f4ce2f38320e613974a63e1805d35ba320
+o
+?app/src/main/java/com/ads/contactsdemo/EditContactActivity.java,9\c\9cf32a447def9158cf16bd5e136f650a1c2cbd70
+v
+Fapp/src/main/java/com/ads/contactsdemo/viewmodel/ContactViewModel.java,a\3\a32b790fb009b3379363e8ad9fa216be25d9cf39
+x
+Happ/src/main/java/com/ads/contactsdemo/repository/ContactRepository.java,c\a\ca30b45260f17dcc77580972d823e172178025e0
+n
+>app/src/main/java/com/ads/contactsdemo/AddContactActivity.java,a\f\af128df7525536d02f690e3f7841fdf78a9ef6df
+o
+?app/src/main/java/com/ads/contactsdemo/ViewContactActivity.java,4\7\47d076261d242b292fa2704ce4d0c38987d9a7da
+@
+app/build.gradle,f\4\f4a01d6a4fcb971362ec00a83903fd3902f52164
+m
+=app/src/main/java/com/ads/contactsdemo/model/AppDatabase.java,2\7\273aaaa39c19d26472d05f590d22a6ee7e329f4e
